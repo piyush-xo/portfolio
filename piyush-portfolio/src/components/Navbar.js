@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/astro_logo.png";
 import { FaBars, FaTimes, FaHackerrank, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="z-10">
-        <img src={logo} style={{ width: "50px" }} />
+        <img src={logo} style={{ width: "50px" }} alt="Image by pngtree.com" />
       </div>
 
       {/* menu */}
