@@ -17,14 +17,14 @@ function Skills() {
                 {/* <p className='py-4 '>// These are the technologies I have worked with</p> */}
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8 sm:my-4 '>               
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={html} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>HTML</p></div> 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={css} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>CSS</p></div>                 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={javascript} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>JavaScript</p></div>                
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={react} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>React JS</p></div>                
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={tailwind} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>TailwindCSS</p></div>                
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={github} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Github</p></div> 
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={node} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Node JS</p></div>                
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img src={mongo} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Mongo DB</p></div>                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={html} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>HTML</p></div> 
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={css} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>CSS</p></div>                 
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={javascript} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>JavaScript</p></div>                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={react} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>React JS</p></div>                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={tailwind} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>TailwindCSS</p></div>                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={github} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Github</p></div> 
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={node} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Node JS</p></div>                
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'><img alt="" src={mongo} className='w-[40px] sm:w-[80px] mx-auto'/> <p className='my-3'>Mongo DB</p></div>                
             </div>
         </div>
     </div> 
