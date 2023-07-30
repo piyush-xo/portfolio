@@ -126,6 +126,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/piyush-xo"
               target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
               LinkedIn <FaLinkedin size={30} />
@@ -135,6 +136,7 @@ function Navbar() {
             <a
               href="https://www.hackerrank.com/piyush"
               target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
               Hackerrank <FaHackerrank size={30} />
@@ -152,6 +154,7 @@ function Navbar() {
             <a
               href="https://drive.google.com/file/d/1ESJA3q00YihVHe-CCPf_B3h6hhxal1OA/view?usp=sharing"
               target="_blank"
+              rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
               Resume <BsFillPersonLinesFill size={29} />
