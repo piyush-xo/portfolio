@@ -124,7 +124,8 @@ function Navbar() {
         <ul>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-blue-600 p-1 px-2">
             <a
-              href="/"
+              href="https://www.linkedin.com/in/piyush-xo"
+              target="_blank"
               className="flex justify-between items-center text-[15px] "
             >
               LinkedIn <FaLinkedin size={30} />
@@ -132,7 +133,8 @@ function Navbar() {
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-[#068932] p-1 px-2">
             <a
-              href="/"
+              href="https://www.hackerrank.com/piyush"
+              target="_blank"
               className="flex justify-between items-center text-[15px] "
             >
               Hackerrank <FaHackerrank size={30} />
@@ -140,7 +142,7 @@ function Navbar() {
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-[#DB4437] p-1 px-2">
             <a
-              href="/"
+              href="mailto:kpiyush381@gmail.com"
               className="flex justify-between items-center text-[15px] "
             >
               Email <HiOutlineMail size={32} />
@@ -148,7 +150,8 @@ function Navbar() {
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-gray-600 p-1 px-2">
             <a
-              href="/"
+              href="https://drive.google.com/file/d/1ESJA3q00YihVHe-CCPf_B3h6hhxal1OA/view?usp=sharing"
+              target="_blank"
               className="flex justify-between items-center text-[15px] "
             >
               Resume <BsFillPersonLinesFill size={29} />
