@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div className="z-10">
-        <img src={logo} style={{ width: "50px" }} alt="Image by pngtree.com" />
+        <img src={logo} style={{ width: "50px" }} alt="by pngtree.com" />
       </div>
 
       {/* menu */}
