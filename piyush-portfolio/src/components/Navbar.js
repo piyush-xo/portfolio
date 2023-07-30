@@ -13,8 +13,8 @@ function Navbar() {
   };
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div className="z-10">
-        <img src={logo} style={{ width: "50px" }} alt="by pngtree.com" />
+      <div className="z-10 animate-[spin_3s_infinite]">
+        <img src={logo} style={{ width: "75px" }} alt="by pngtree.com " />
       </div>
 
       {/* menu */}
@@ -120,7 +120,7 @@ function Navbar() {
       </ul>
 
       {/* social icons */}
-      <div className="lg:flex flex-col fixed top-[30%] left-0 hidden">
+      <div className="lg:flex flex-col fixed top-[30%] left-0 hidden group">
         <ul>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-blue-600 p-1 px-2">
             <a
@@ -129,7 +129,7 @@ function Navbar() {
               rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
-              LinkedIn <FaLinkedin size={30} />
+              LinkedIn <FaLinkedin size={30} className="group-hover:animate-[spin_1s]" />
             </a>
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-[#068932] p-1 px-2">
@@ -139,7 +139,7 @@ function Navbar() {
               rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
-              Hackerrank <FaHackerrank size={30} />
+              Hackerrank <FaHackerrank size={30} className="group-hover:animate-[spin_1s]"/>
             </a>
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-[#DB4437] p-1 px-2">
@@ -147,7 +147,7 @@ function Navbar() {
               href="mailto:kpiyush381@gmail.com"
               className="flex justify-between items-center text-[15px] "
             >
-              Email <HiOutlineMail size={32} />
+              Email <HiOutlineMail size={32} className="group-hover:animate-[spin_1s]"/>
             </a>
           </li>
           <li className="w-[132px] ml-[-87px] hover:ml-0 duration-[400ms] bg-gray-600 p-1 px-2">
@@ -157,7 +157,7 @@ function Navbar() {
               rel="noreferrer"
               className="flex justify-between items-center text-[15px] "
             >
-              Resume <BsFillPersonLinesFill size={29} />
+              Resume <BsFillPersonLinesFill size={29} className="group-hover:animate-[spin_1s]"/>
             </a>
           </li>
         </ul>
